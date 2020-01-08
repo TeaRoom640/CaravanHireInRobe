@@ -1,0 +1,398 @@
+body
+{font-family: 'Times', 'Helvetica Neue', sans-serif; margin:0px; color:rgb(0,0,10)}
+
+html{font-size:24px; }
+
+.mobilecaravanimages
+{
+display:none;	
+	height:24vw;
+}
+
+.displayphoto
+{
+	margin-top:4%;
+
+border-radius:5%;
+width:100%;	
+height:auto
+}
+
+
+.caravandescription
+{
+	margin-left:10%;
+	width:50%;
+	float:left;
+	box-sizing:border-box;
+	
+}
+
+.textbox
+{
+	border-radius:5%;
+	background-color:lightblue;
+	color:rgb(0,0,30);
+	padding:0.2em;
+	margin:0.6em;
+	margin-bottom:1em;
+	margin-top:0.5em;
+	height:auto;
+	width:8em; /* or whatever width you want. */
+    /* or whatever width you want. */
+   list-style:none;
+   display: inline-block;
+	vertical-align:top;
+	margin-left:0px;
+}
+
+.caravanimages
+{
+	padding-top:1%;
+	padding-left:10%;
+	padding-right:5%;
+	padding-left:10%;
+	width:40%;
+	float:right;
+	box-sizing:border-box;
+	
+	
+}
+
+.carousel
+{
+	background:transparent;
+	position:absolute;
+	width:100%;
+	height:100px;
+	padding-top:0px;
+	overflow:visible;
+	
+	height:auto;
+	clear:both;
+}
+
+.frame
+{
+	position:relative;
+	overflow:visible;
+	top:1em;
+	width:75%;
+	height:auto;
+	margin:auto;
+	max-width:80%;
+	
+	
+	
+
+}
+.cover
+{
+	
+	padding-top:0px;
+	background-color:transparent;
+	width:100%;
+	
+	height:100vh;
+	overflow:hidden;
+	height:1000px;
+	position:absolute;
+	}
+
+.panel
+{
+	box-sizing: border-box;
+	padding:5%;
+	padding-top:0px;
+	width:100%;
+	
+	position:absolute;
+	text-align:left;
+	overflow:visible;
+	
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	
+	height:auto;
+	
+	
+}
+.left:hover
+{
+	
+	 cursor: pointer;
+}
+
+button:disabled
+{
+	color:red;
+	display:none;
+}
+
+.right {
+    Outline: none;
+    background: transparent;
+    height: 5rem;
+    width: 5rem;
+    background-image: url(arrow.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    right: -4.6rem;
+    top: 12vw;
+    padding: 0;
+    border-color: transparent;
+    position: absolute;
+}
+
+
+.right:hover
+{
+	
+	 cursor: pointer;
+}
+
+.left
+{
+	Outline: none;
+	background:transparent;
+	height: 5rem;
+	width: 5rem;
+	background-image: url("arrow.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	left:-5.3rem;
+	top:12vw;
+	padding: 0;
+border-color:transparent;
+	transform: rotateY(180deg);
+	position:absolute;
+	
+}
+
+.displayphoto:hover
+{
+	margin-top:2%;
+	margin-left:-5%;
+cursor:pointer;	
+	width:110%;
+}
+
+.nav
+{
+	left:0px;
+	top:0px;
+	width:100vw;
+	margin:0px;
+	position:fixed;
+	background-color:rgb(10,10,80);
+	padding-bottom:0.1em; padding-top:0.1em;
+	z-index:10;
+	text-align:center;
+	
+}
+.nav ul
+{
+	float:right;
+	 width: 100%;
+}
+
+.nav a
+{
+	font-size:1.4em;
+	padding-bottom:0.1em; padding-top:0.1em;
+	color:rgb(240,255,240);
+	text-decoration:none;
+	padding-bottom:0px;
+	margin-bottom:0px;
+}
+
+.nav li
+{
+	display:inline;
+	padding-bottom:0px;
+	padding-top:0px;
+	
+	 padding-left:0em;
+	 padding-right:1.8em;
+}
+
+.currentpage
+{
+	box-sizing:border-box;
+	padding-bottom:0px;
+	margin-bottom:0px;
+	border-bottom:3px solid white;
+	
+}
+
+.pricing{padding-bottom:0px;margin-bottom:0px;margin:0px;box-sizing:border-box;float:left;margin:auto;float:left;width:40%;}
+.camplify{float:right; 
+width:70%; 
+box-sizing:border-box;
+margin:3vw;
+padding:3vw;
+font-size:30px;
+border-radius:5%;
+	background-color:lightblue;
+	color:rgb(0,0,30);
+	border: 3px solid rgb(10,10,60);
+border-radius:5px;}
+
+.mobilecamplify{display:none; margin:auto; margin-top:3vw;
+padding:3vw;
+width:90%; 
+box-sizing:border-box;
+
+border-radius:5%;
+	background-color:lightblue;
+	color:rgb(0,0,30);
+	border: 3px solid rgb(10,10,60);
+border-radius:5px;}
+.book
+{
+	width:60%;box-sizing:border-box;float:right;margin:0px;padding:0px;
+	float:left; display:block;
+}
+
+.camplify
+{
+	
+background-color:white;
+
+
+border: 3px solid rgb(10,10,60);
+border-radius:5px;
+
+	max-width:83%;margin:auto;min-width:100px;margin-bottom:1rem;overflow:auto;font-size:20px;position:relative;padding:0px;width:800px;overflow:hidden;
+}
+
+.testbox{border-radius:5%;
+	background-color:lightblue;
+	color:rgb(0,0,30);
+	padding:0.2em;
+	margin:0.6em;
+	margin-bottom:1em;
+	margin-top:0.5em;
+	height:auto;
+	width:8em; /* or whatever width you want. */
+    /* or whatever width you want. */
+   list-style:none;
+   display: inline-block;
+	vertical-align:top;
+margin-left:0px;
+margin:0.1rem;width:45%;margin-left:2%;padding-left:1%;float:left;}
+
+#fullimage
+{position:fixed; width:90vw;left:10vw;}
+
+
+@media only screen and (max-width:1350px)
+{
+	html{
+	font-size:20px;}
+	.mobilecaravanimages
+	{
+	display:block;
+	}	
+	.displayphoto
+	{
+	width:14em;
+	}
+	.caravanimages
+	{display:none;}
+	.caravandescription
+	{width:80%;}
+	
+	
+	
+}
+
+@media only screen and (max-width:1050px)
+{
+	html{
+	font-size:17px;
+	}	
+	
+	
+	.testimonial{width:300px;}
+	
+}
+
+@media only screen and (max-width:920px)
+{
+	.left{top:4.4em; width:4rem; height:4rem; left:-3rem;}
+	.right{top:4.4em; width:4rem; height:4rem; right:-3rem;}
+	.nav a{font-size:16px;}
+	.book{width:100%;}.pricing{width:100%;}
+}
+
+@media only screen and (max-width:620px)
+{
+	html{
+font-size:14px;
+	}	
+	.left{top:3.5em; width:4rem; height:4rem; left:-3rem;}
+	.right{top:3.5em; width:4rem; height:4rem; right:-3rem;}
+		.nav a{font-size:14px;}
+	
+		
+}
+
+@media only screen and (max-width:450px)
+{
+	html{
+font-size:14px;
+	}	
+	.left{top:3.5em; width:3rem; height:3rem; left:-2.5rem;}
+	.right{top:3.5em; width:3rem; height:3rem; right:-2.5rem;}
+		.nav a{font-size:10px; }
+}
+
+
+
+
+.paragraph
+{text-align:justify;
+min-width:80%;
+max-width:95%;
+width:1700px;
+margin:auto;
+ 
+}
+
+.paragraph h1{
+	text-align:center;
+}
+
+.wedge
+{padding-bottom:0px;}
+
+.title
+{ text-align:center; z-index:4; position:relative; font-size:4vw; padding-top:0px;margin-top:0px;}
+
+.subtitle
+{ text-align:center; z-index:4; position:relative; font-size:3vw;}
+
+
+h2{padding-bottom:0em; margin-bottom:0em;padding-top:0em; margin-top:0em;}
+h1{padding-bottom:0em; margin-bottom:0em;}
+	p{padding-top:0em; margin-top:0em;padding-bottom:0em; margin-bottom:0em;}
+	div{padding-bottom:10em;}
+
+.testimonial
+{width:90%;
+background-color:white;
+margin-bottom:1em;
+padding:0px;
+padding-left:0.3em;
+padding-right:1em;
+padding-bottom:0.3em;
+border: 3px solid rgb(10,10,60);
+border-radius:5px;
+margin-left:5%;
+margin-right:5%;
+}
+
+
+	
+	
